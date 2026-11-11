@@ -1,13 +1,21 @@
 {
   "name": "hello-world-react",
   "version": "1.0.0",
+  "private": true,
   "type": "module",
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+  "engines": {
+    "node": ">=22"
   },
   "scripts": {
-    "dev": "react-scripts start",
-    "build": "react-scripts build"
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
   }
 }
